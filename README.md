@@ -1,4 +1,10 @@
-# Steps to Analyse results downloaded from PSEB (pseb.ac.in)
+# Analyse Matric and Sr. Sec. results downloaded from PSEB (pseb.ac.in)
+
+This repository is about analysing the school results of matric and senior secondary 
+classes of the Punjab School Education Board (pseb.ac.in).
+
+NOTICE: This may not be suitable for other Boards. Modify the script in case of other Boards.
+
 
 ## Setup the environment
 
@@ -13,7 +19,7 @@ Upon successful installed of the packages, the following steps should work.
 
 # Download required scripts
 
-Point your browser to ........... site and download par.py and pnb2unicode.py.
+Point your browser to ```https://github.com/sangwal/pseb``` site and download par.py and pnb2unicode.py.
 Move these files to a folder of your choice, maybe PSEB-results in Documents folder.
 
 ## Download the result from the PSEB site
@@ -21,7 +27,7 @@ Move these files to a folder of your choice, maybe PSEB-results in Documents fol
 Download the result for class 10 or 12 and save it to a file, say, Result-2025.xlsx.
 Copy/Move this file to the folder (PSEB-results) containing par.py file.
 
-## Add a column named ```Section``` to Result-2025.xlsx
+## Add a column named "Section" to Result-2025.xlsx
 
 Add a column named "Section" before the name of the students in the downloaded
 result file and enter section for each student.
